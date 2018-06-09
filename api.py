@@ -2,7 +2,7 @@ import requests
 import json
 import tabulate
 
-#requests.packages.urllib3.disable_warnings()
+requests.packages.urllib3.disable_warnings()
 
 #api_url = "https://devnetsbx-netacad-apicem-1.cisco.com"
 #api_username = "devnetuser"

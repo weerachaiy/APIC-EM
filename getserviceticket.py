@@ -1,10 +1,7 @@
 import api
-import requests
-import json
-import tabulate
 
 def main():
-    requests.packages.urllib3.disable_warnings()
+    #requests.packages.urllib3.disable_warnings()
 
     api.print_host()
 
