@@ -1,7 +1,7 @@
 import api
 
 def main():
-    #requests.packages.urllib3.disable_warnings()
+    requests.packages.urllib3.disable_warnings()
 
     api.print_host()
 
